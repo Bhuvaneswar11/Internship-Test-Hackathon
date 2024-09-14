@@ -1,0 +1,48 @@
+.search-bar-container {
+    width: 500px;
+    margin: 20px auto;
+    position: relative;
+  }
+  .search-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  .search-input:focus {
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.2);
+  }
+  .countries-list {
+    margin-top: 10px;
+    padding: 0;
+    list-style-type: none;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  } 
+  .country-item {
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  .country-item:hover {
+    background-color: #f6e9e9;
+  }
+  .country-name {
+    font-weight: bold;
+  }
+  .country-capital {
+    font-style: italic;
+    color: #666666;
+  }
+  .country-info {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+  }
